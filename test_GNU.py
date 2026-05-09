@@ -121,9 +121,9 @@ class test_GNU(gr.top_block, Qt.QWidget):
 
         self._qtgui_time_sink_x_0_win = sip.wrapinstance(self.qtgui_time_sink_x_0.qwidget(), Qt.QWidget)
         self.top_layout.addWidget(self._qtgui_time_sink_x_0_win)
-        self.blocks_file_sink_0_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/user/Desktop/TP_2_Docker_Test/test_capture_2.txt', False)
+        self.blocks_file_sink_0_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/user/Desktop/TP2_Docker_Open5GS_srsRAN/test_capture_2.txt', False)
         self.blocks_file_sink_0_0.set_unbuffered(False)
-        self.blocks_file_sink_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/user/Desktop/TP_2_Docker_Test/test_capture.txt', False)
+        self.blocks_file_sink_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/user/Desktop/TP2_Docker_Open5GS_srsRAN/test_capture.txt', False)
         self.blocks_file_sink_0.set_unbuffered(False)
 
 

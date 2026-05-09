@@ -52,7 +52,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/user/Desktop/TP_2_Docker_Test/test_capture.txt
+    file: /home/user/Desktop/TP2_Docker_Open5GS_srsRAN/test_capture.txt
     type: complex
     unbuffered: 'False'
     vlen: '1'
@@ -70,7 +70,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/user/Desktop/TP_2_Docker_Test/test_capture_2.txt
+    file: /home/user/Desktop/TP2_Docker_Open5GS_srsRAN/test_capture_2.txt
     type: complex
     unbuffered: 'False'
     vlen: '1'
